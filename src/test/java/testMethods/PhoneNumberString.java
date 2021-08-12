@@ -5,6 +5,8 @@ public class PhoneNumberString {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		 System.out.println(convertPhoneNumber("8011001000"));
+		 System.out.println(convertPhoneNumber("80110010000"));
+		 System.out.println(convertPhoneNumber("abcdefcf"));
 	}
 	
 	public static String convertPhoneNumber(String phoneNumber){
