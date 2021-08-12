@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="GoogleAutomationSuite" verbose="1" parallel="false">
+
+  <test name="GoogleSearchTest">
+    <classes>
+      <class name="testMethods.DynamicContentTest">
+      </class>
+    </classes>
+  </test>
+</suite>
